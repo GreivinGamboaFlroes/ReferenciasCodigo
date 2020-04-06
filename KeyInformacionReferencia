@@ -1,0 +1,5 @@
+            DdatosReferencia.Add("TipoDoc", "01"); /*Tipo de documento de referencia. 01 Factura electrónica, 02 Nota de débito electrónica, 03 nota de crédito electrónica, 04 Tiquete electrónico, 05 Nota de despacho, 06 Contrato, 07 Procedimiento, 08 Comprobante emitido en contigencia, 09 Devoluicion mercaderia, 10 Sustituye factura rechazada poir Ministerio de Hacienda, 11 Sustituye factura rechazada por el receptor del comprobante, 12 Sustituye factura de exportacion, 99 otros*/
+            DdatosReferencia.Add("Numero", "50606042000060415089500100001010000000034100000034");/*Clave electronica de la Factura Tiquete etc.. a la que se le hace la nota*/
+            DdatosReferencia.Add("FechaEmision", "2020-04-06T14:40:46");/*Fecha del documento al que se le hace referencia*/
+            DdatosReferencia.Add("Codigo", "01");/*Código de referencia. 01 Anula documento de referencia, 02 Corrige texto de documento de referencia, 03 Corrige monto, 04 Referencia a otro documento, 05 Sustituye comprobante provisional por contigencia, 99 Otros*/
+            DdatosReferencia.Add("Razon", "Anulacion");/*TExto acorde al codigo*/
